@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <<LinearLayout
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_constraintBottom_toBottomOf="parent"
@@ -17,7 +17,6 @@
     android:layout_marginBottom="@dimen/layout_margin_bottom"
     android:orientation="vertical"
     android:gravity="center">
-    <!-- Aligns child elements to the centre of view group  -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,7 +36,6 @@
         android:layout_weight="1"
         android:orientation="vertical"
         android:gravity="center">
-        <!-- Aligns child elements to the centre of view group  -->
         <Button
             android:id="@+id/btn_new_game"
             android:layout_width="wrap_content"
